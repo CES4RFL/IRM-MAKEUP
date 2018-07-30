@@ -817,7 +817,7 @@
 		margin:0px auto;
 		background-color:transparent;
 		padding:0px;
-		margin-top:4rem;
+		margin-top:0rem;
 		margin-bottom:0px;
 	}
 	body {
@@ -836,7 +836,6 @@
 		padding: 0 15px;
 	}
 	.menu-row{
-		background-color: #34495f;
 		height: 5rem;
 		margin-top: -1rem;
 		width: 100%;
@@ -1508,11 +1507,15 @@
 	/*======================Autor Styles==================*/
 	.informacion h5{
 		font-size: 3.8vw;
+		font-weight: bolder;
+	}
+	.informacion img{
+		height: 60vw;
 	}
 	.informacion p{
-		background-color: #00000042;
+		background-color: #00000091;
 		color: white;
-		margin-top: -14em;
+		margin-top: -15em;
 		padding: 8vw;
 		font-size: 3vw;
 		font-weight: 700
@@ -1520,6 +1523,16 @@
 	.informacion hr {
 		border-top: none;
 	}
+	.objetivo{
+		margin-top: 0rem;
+	}
+	.objetivo h5{
+		font-size: 3.8vw;
+	}
+	.objetivo p{
+		font-size: 3vw;
+	}
+	
 }
 
 @media (max-width:574px) {
