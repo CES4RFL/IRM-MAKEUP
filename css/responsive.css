@@ -1505,26 +1505,29 @@
 	}
 	
 	/*======================Autor Styles==================*/
-	.informacion h5{
-		font-size: 3.8vw;
-		font-weight: bolder;
+	.rev_slider_wrapper, .rev_slider, .tp-fullwidth-forcer, .rev_slider .tp-bgimg.defaultimg {
+		height: 50vh !important;
+	
 	}
-	.informacion img{
-		height: 60vw;
+	/* body {
+		background:url(../images/back2.jpg) center center no-repeat fixed;
+		background-size: 250% 100%; 
+	} */
+	.galeria-p{
+		background-size: cover; 
+		padding: 0rem 0rem 0rem 0rem;
 	}
-	.informacion p{
-		background-color: #00000091;
-		color: white;
-		margin-top: -15em;
-		padding: 8vw;
+	.presentacion h5{
+		font-size: 4vw;
+	}
+	.presentacion p{
 		font-size: 3vw;
-		font-weight: 700
 	}
 	.informacion hr {
 		border-top: none;
 	}
 	.objetivo{
-		margin-top: 0rem;
+		margin-top: none;
 	}
 	.objetivo h5{
 		font-size: 3.8vw;

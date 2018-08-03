@@ -13,7 +13,6 @@
 	<meta name="keywords" content="">
 	<meta name="description" content="">
 	<meta name="author" content="">
-
 	<!-- bootstrap css -->
 	<link rel="stylesheet" href="css/bootstrap.min.css" />
 	<!-- Site css -->
@@ -22,6 +21,7 @@
 	<link rel="stylesheet" href="css/responsive.css" />
 	<!-- colors css -->
 	<link rel="stylesheet" href="css/color.css" />
+	<link rel="stylesheet" href="css/font-awesome.min.css">
 	<!-- custom css -->
 	<!-- <link rel="stylesheet" href="css/custom.css" /> -->
 	<!-- revolution slider css -->
@@ -30,7 +30,7 @@
 	<!-- <link rel="stylesheet" type="text/css" href="revolution/css/navigation.css" /> -->
 	</head>
 	<body class="home_2">
-		<div id="particles-js"></div>
+		<!-- <div id="particles-js"></div> -->
 		<!-- loader -->
 		<div class="bg_load"> 
 			<img class="loader_animation" src="images/logos/logo.png" alt="#" style="height: 5rem;widith:5rem" /> 
@@ -355,71 +355,84 @@
 	</div>
 	<!-- end section -->
 	<!-- section informacion -->
-	<div class="informacion">
+	<div class="presentacion">
 		<div class="container">
-		<h5 clas="row texto-infomacion text-center"><b>En Informática y Redes México</b>, nos preocupamos por llevar Tecnología Informática a las Micros, Pequeñas y Medianas Empresas (MiPymes), empresas que inician labores o que se encuentran en pleno crecimiento</h5>		 
-			<div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-				<div class="col-md-6 col-lg-6 order-md-first order-lg-first">
-					<img class="img-fluid" src="images/inicio-1.jpg" alt="">
+			<div class="row justify-content-center texto-infomacion text-center">
+				<h5><b>En Informática y Redes México, </b></h5>
+				<p>
+				nos preocupamos por llevar Tecnología Informática a las Micros, 
+				Pequeñas y Medianas Empresas (MiPymes), empresas que inician labores 
+				o que se encuentran en pleno crecimiento
+				</p>
+			</div>
+			<div class="row features">
+				<div class="item col-md-4 text-center">
+					<i class="fa fa-line-chart" aria-hidden="true" style="font-size: 4rem; padding-bottom:1rem;"></i>
+					<p	>Hoy en dia, ningun negocio puede ser 
+					productivo y exitoso, si no cuenta con tecnologia adecuada que permita 
+					la toma de decisiones rapidas y efectivas</p>
 				</div>
-				<div class="col-md-6 col-lg-6">
-					<div class="bg-black text-center h-100 project">
-						<div class="d-flex h-100">
-							<div class="project-text w-100 my-auto text-center text-lg-left">
-								<p class="mb-0 text-white-50">Hoy en dia, ningun negocio puede ser 
-								productivo y exitoso, si no cuenta con tecnologia adecuada que permita 
-								la toma de decisiones rapidas y efectivas</p>
-								<hr/>
-							</div>
-						</div>
-					</div>
+				<div class="item col-md-4  text-center">
+					<i class="fa fa-calculator" aria-hidden="true" style="font-size: 4rem; padding-bottom:1rem;"></i>
+					<p>Para las empresas en pleno crecimiento no es funcional 
+					desviar recursos en la contratacion de personal de sistemas, ya que existiran 
+					tiempos muertos y un consto alto de inversion</p>
+				</div>
+				<div class="item col-md-4 text-center">
+					<i class="fa fa-lightbulb-o" aria-hidden="true" style="font-size: 4rem; padding-bottom:1rem;"></i>
+					<p>Es ahi donde <b>Informática y Redes México</b>, puede apoyarle, 
+					ya que ponemos a su alcance Tecnología y servicio de manera puntual y precisa a un 
+					precio justo.</p>
 				</div>
 			</div>
-			<div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-				<div class="col-md-6 col-lg-6">
-					<img class="img-fluid" src="images/inicio-2.png" alt="">
+			<div class="objetivo">
+				<div class="row justify-content-center text-center">
+					<h5>Objetivo
+						<hr/>
+					</h5>
 				</div>
-				<div class="col-md-6 col-lg-6 order-md-first order-lg-first">
-					<div class="bg-black text-center h-100 project">
-						<div class="d-flex h-100">
-							<div class="project-text w-100 my-auto text-center text-lg-right">
-								<p class="mb-0 text-white-50">Para las empresas en pleno crecimiento no es funcional 
-								desviar recursos en la contratacion de personal de sistemas, ya que existiran 
-								tiempos muertos y un consto alto de inversion
-								</p>
-								<hr/>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-				<div class="col-md-6 col-lg-6 order-md-first order-lg-first">
-					<img class="img-fluid" src="images/inicio-3.jpg" alt="">
-				</div>
-				<div class="col-md-6 col-lg-6">
-					<div class="bg-black text-center h-100 project">
-						<div class="d-flex h-100">
-							<div class="project-text w-100 my-auto text-center text-lg-left">
-								<p class="mb-0 text-white-50">Es ahi donde Informática y Redes México, puede apoyarle, 
-								ya que ponemos a su alcance Tecnología y servicio de manera puntual y precisa a un 
-								precio justo.</p>
-								<hr/>
-							</div>
-						</div>
-					</div>
+				<div class="row justify-content-center text-center">
+					<p>Proporcionar soluciones tecnológicas y de desarrollo con estándares de calidad, mediante proyectos 
+					llave en mano orientados a satisfacer los requerimientos y necesidades de nuestros clientes.</p>
 				</div>
 			</div>
 		</div>
 	</div>
-	<!-- end section -->
+	<div class="servicios">
+		<div class="servicios-back">
+			<div class="container">
+				<div class="row justify-content-center text-center">
+					<h5>Nuestros servicios</h5>
+				</div>
+				<div class="row justify-content-center text-center">
+					
+				</div>
+			</div>
+		</div>
+	</div>
 	<div class="objetivo">
 		<div class="container">
 			<div class="row justify-content-center text-center">
-				<h5>Objetivo</h5>
+				<h5>Objetivo
+					<hr/>
+				</h5>
 			</div>
 			<div class="row justify-content-center text-center">
-				<img src="images/icono1.png" alt="" style="    width: 110px; height: 110px;">
+				<img src="images/icono1.svg" alt="" style="    width: 110px; height: 110px;">
+				<p>Proporcionar soluciones tecnológicas y de desarrollo con estándares de calidad, mediante proyectos 
+				llave en mano orientados a satisfacer los requerimientos y necesidades de nuestros clientes.</p>
+			</div>
+		</div>
+	</div>
+	<div class="objetivo">
+		<div class="container">
+			<div class="row justify-content-center text-center">
+				<h5>Objetivo
+					<hr/>
+				</h5>
+			</div>
+			<div class="row justify-content-center text-center">
+				<img src="images/icono1.svg" alt="" style="    width: 110px; height: 110px;">
 				<p>Proporcionar soluciones tecnológicas y de desarrollo con estándares de calidad, mediante proyectos 
 				llave en mano orientados a satisfacer los requerimientos y necesidades de nuestros clientes.</p>
 			</div>
@@ -427,11 +440,13 @@
 	</div>
 
 	</body>
-
+	<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+	<script src='http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/js/bootstrap.min.js'></script>
 	<script src="js/particles.js"></script>
 	<script src="js/particulas.js"></script>
 
 	<script src="js/jquery.min.js"></script>
+
 	<script src="js/bootstrap.min.js"></script>
 	<!-- menu js -->
 	<script src="js/menumaker.js"></script>
@@ -439,7 +454,7 @@
 	<script src="js/wow.js"></script>
 	<!-- custom js -->
 	<script src="js/custom.js"></script>
-	     <!-- revolution js files -->
+		 <!-- revolution js files -->
 	<script src="revolution/js/jquery.themepunch.tools.min.js"></script>
 	<script src="revolution/js/jquery.themepunch.revolution.min.js"></script>
 	<script src="revolution/js/extensions/revolution.extension.actions.min.js"></script>
@@ -450,5 +465,5 @@
 	<script src="revolution/js/extensions/revolution.extension.navigation.min.js"></script>
 	<script src="revolution/js/extensions/revolution.extension.parallax.min.js"></script>
 	<script src="revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
-	<script src="revolution/js/extensions/revolution.extension.video.min.js"></script>
+	<script src="revolution/js/extensions/revolution.extension.video.min.js"></script
 </html>
