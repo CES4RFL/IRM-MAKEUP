@@ -487,10 +487,12 @@ header .right_bt .btn {
 	/* background-color: #f6f6f6; */
 }
 .presentacion h5{
+
 	font-family: Raleway;
 	text-align: center;
 	line-height: 1.6;
 	font-size: 3em;
+	color: #083358;
 }
 .presentacion p{
 	/* font-family: "Poppins", sans-serif; */
@@ -500,6 +502,9 @@ header .right_bt .btn {
 }
 .presentacion .item{
 	padding-top: 4rem;
+}
+.presentacion i{
+	color: #01b1d7;	
 }
 .presentacion .item p{
 	font-size: 1rem;
@@ -531,18 +536,72 @@ header .right_bt .btn {
 	line-height: 1.6;
 }
 .servicios{
-	background:url(../images/back2.jpg) center right no-repeat;
-	background-size: cover; 
-	background-attachment: fixed;
+	background:url(../images/back2.jpg) center center no-repeat;
+    height: 100%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+	background-size: cover;
 	color: #fff;
 	font-family: "Poppins", sans-serif;
 }
 .servicios-back{
 	background:#00000063;
-	padding: 5rem 2rem 5rem 2rem;
+	padding: 10rem 2rem 10rem 2rem;
 }
 .servicios h5{
 	font-family: Raleway;
 	font-size: 2em;
 	font-weight: bolder;
 }
+/*ServicIOS*/
+
+#servicios-contenedor .col-md-6 {
+	padding:0;
+	
+}
+
+.servicios-contenido {
+	position: relative;
+}
+
+
+.servicios-contenido .services-column {
+	position: relative;
+	width: 50%;
+	float: left;
+	background: #fff;	
+}
+
+
+.servicios-contenido .service-block {
+	position: relative;
+	margin-bottom: 40px;	
+}
+
+.servicios-contenido .services-column .content-outer {
+	position: relative;
+	float: right;
+	max-width: 700px;
+	padding: 80px 20px 40px 40px;	
+}
+
+.servicios-contenido .services-column .icon-box {
+	font-size: 36px;
+	margin-bottom: 15px;
+	line-height: 1px;
+	color: #01b1d7;	
+}
+
+.servicios-contenido .services-column h4 {
+	font-size: 14px;
+	margin-bottom: 10px;
+	color: #1c1c1c;	
+}
+
+.servicios-contenido .services-column .text {
+	font-size: 13px;
+	color: #000000;
+	max-width: 250px;	
+}
+

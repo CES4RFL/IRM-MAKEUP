@@ -21,7 +21,7 @@
 	<link rel="stylesheet" href="css/responsive.css" />
 	<!-- colors css -->
 	<link rel="stylesheet" href="css/color.css" />
-	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="fontawesome/css/all.min.css">
 	<!-- custom css -->
 	<!-- <link rel="stylesheet" href="css/custom.css" /> -->
 	<!-- revolution slider css -->
@@ -55,11 +55,11 @@
 				   <div class="float-right">
 					<div class="social_icon">
 					   <ul class="list-inline">
-						<li><a class="fa fa-facebook" href="https://www.facebook.com/" title="Facebook" target="_blank"></a></li>
-						<li><a class="fa fa-google-plus" href="https://plus.google.com/" title="Google+" target="_blank"></a></li>
-						<li><a class="fa fa-twitter" href="https://twitter.com/" title="Twitter" target="_blank"></a></li>
-						<li><a class="fa fa-linkedin" href="https://www.linkedin.com/" title="LinkedIn" target="_blank"></a></li>
-						<li><a class="fa fa-instagram" href="https://www.instagram.com/" title="Instagram" target="_blank"></a></li>
+						<li><a class="fab fa-facebook-f" href="https://www.facebook.com/" title="Facebook" target="_blank"></a></li>
+						<li><a class="fab fa-google-plus-g" href="https://plus.google.com/" title="Google+" target="_blank"></a></li>
+						<li><a class="fab fa-twitter"href="https://twitter.com/" title="Twitter" target="_blank"></a></li>
+						<li><a class="fab fa-linkedin-in"href="https://www.linkedin.com/" title="LinkedIn" target="_blank"></a></li>
+						<li><a class="fab fa-instagram" href="https://www.instagram.com/" title="Instagram" target="_blank"></a></li>
 					   </ul>
 					</div>
 				   </div>
@@ -367,7 +367,7 @@
 			</div>
 			<div class="row features">
 				<div class="item col-md-4 text-center">
-					<i class="fa fa-line-chart" aria-hidden="true" style="font-size: 4rem; padding-bottom:1rem;"></i>
+					<i class="fas fa-chart-line" aria-hidden="true" style="font-size: 4rem; padding-bottom:1rem;"></i>
 					<p	>Hoy en dia, ningun negocio puede ser 
 					productivo y exitoso, si no cuenta con tecnologia adecuada que permita 
 					la toma de decisiones rapidas y efectivas</p>
@@ -379,7 +379,7 @@
 					tiempos muertos y un consto alto de inversion</p>
 				</div>
 				<div class="item col-md-4 text-center">
-					<i class="fa fa-lightbulb-o" aria-hidden="true" style="font-size: 4rem; padding-bottom:1rem;"></i>
+					<i class="far fa-lightbulb" aria-hidden="true" style="font-size: 4rem; padding-bottom:1rem;"></i>
 					<p>Es ahi donde <b>Informática y Redes México</b>, puede apoyarle, 
 					ya que ponemos a su alcance Tecnología y servicio de manera puntual y precisa a un 
 					precio justo.</p>
@@ -410,40 +410,84 @@
 			</div>
 		</div>
 	</div>
-	<div class="objetivo">
-		<div class="container">
-			<div class="row justify-content-center text-center">
-				<h5>Objetivo
-					<hr/>
-				</h5>
-			</div>
-			<div class="row justify-content-center text-center">
-				<img src="images/icono1.svg" alt="" style="    width: 110px; height: 110px;">
-				<p>Proporcionar soluciones tecnológicas y de desarrollo con estándares de calidad, mediante proyectos 
-				llave en mano orientados a satisfacer los requerimientos y necesidades de nuestros clientes.</p>
-			</div>
-		</div>
-	</div>
-	<div class="objetivo">
-		<div class="container">
-			<div class="row justify-content-center text-center">
-				<h5>Objetivo
-					<hr/>
-				</h5>
-			</div>
-			<div class="row justify-content-center text-center">
-				<img src="images/icono1.svg" alt="" style="    width: 110px; height: 110px;">
-				<p>Proporcionar soluciones tecnológicas y de desarrollo con estándares de calidad, mediante proyectos 
-				llave en mano orientados a satisfacer los requerimientos y necesidades de nuestros clientes.</p>
-			</div>
-		</div>
-	</div>
 
+		<!--service-->
+	<div id="servicios-contenedor" style="margin-top:0rem">
+		<!--services wrapper-->
+		<div class="servicios-contenido">
+			<div class="outer-box clearfix">
+				<div class="services-column">
+					<div class="content-outer">
+						<div class="row clearfix text-center">
+							<div class="service-block col-lg-6 col-md-6 col-sm-6 col-xs-12 ">
+								<div class="inner-box">
+									<div class="icon-box"><i class="fa fa-eye" aria-hidden="true"></i></div>
+									<h4>SISTEMAS VIDEO VIGILANCIA (CCTV)</h4>
+								</div>
+							</div>
+
+							<div class="service-block col-lg-6 col-md-6 col-sm-6 col-xs-12">
+								<div class="inner-box">
+									<div class="icon-box"><i class="fas fa-fingerprint"></i></div>
+									<h4>CONTROL DE ASISTENCIA (SITEMAS BIOMETRICOS)</h4>
+								</div>
+							</div>
+
+							<div class="service-block col-lg-6 col-md-6 col-sm-6 col-xs-12">
+								<div class="inner-box">
+									<div class="icon-box"><i class="fas fa-wifi" aria-hidden="true"></i></div>
+									<h4>SEGURIDAD Y WIFI</h4>
+								</div>
+							</div>
+
+							<div class="service-block col-lg-6 col-md-6 col-sm-6 col-xs-12">
+								<div class="inner-box">
+									<div class="icon-box"><i class="fas fa-exchange-alt" aria-hidden="true"></i></div>
+									<h4>DISEÑO E INSTALACIÓN DE SISTEMAS DE CABLEADO VOZ Y DATOS</h4>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>	
+				<div class="services-column">
+					<div class="content-outer" style="background: #083358;">
+						<div class="row clearfix text-center">
+							<div class="service-block col-lg-6 col-md-6 col-sm-6 col-xs-12">
+								<div class="inner-box">
+									<div class="icon-box"><i class="fas fa-sitemap" aria-hidden="true"></i></div>
+									<h4 style="color:white;">DESARROLLO E IMPLEMENTACIÓN DE SISTEMAS A MEDIDA</h4>
+								</div>
+							</div>
+
+							<div class="service-block col-lg-6 col-md-6 col-sm-6 col-xs-12">
+								<div class="inner-box">
+									<div class="icon-box"><i class="fas fa-desktop" aria-hidden="true"></i></div>
+									<h4 style="color:white;">MANTENIMIENTO Y VENTA DE EQUIPOS DE COMPUTO Y CONSUMIBLES</h4>
+								</div>
+							</div>
+							<div class="service-block col-lg-6 col-md-6 col-sm-6 col-xs-12">
+								<div class="inner-box">
+									<div class="icon-box"><i class="fas fa-shield-alt" aria-hidden="true"></i></div>
+									<h4 style="color:white;">VENTA DE ANTIVIRUS</h4>
+								</div>
+							</div>
+
+							<div class="service-block col-lg-6 col-md-6 col-sm-6 col-xs-12">
+								<div class="inner-box">
+									<div class="icon-box"><i class="fas fa-file-invoice"aria-hidden="true"></i></div>
+									<h4 style="color:white;">VENTA E IMPLEMENTACIÓN DE PRODUCTOS <b>ASPEL</b></h4>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>	
+			</div>
+		</div>
+	</div>
 	</body>
 	<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 	<script src='http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/js/bootstrap.min.js'></script>
-	<script src="js/particles.js"></script>
-	<script src="js/particulas.js"></script>
+	<script src="js/main.js"></script>
 
 	<script src="js/jquery.min.js"></script>
 
