@@ -402,7 +402,7 @@
 		<div class="servicios-back">
 			<div class="container">
 				<div class="row justify-content-center text-center">
-					<h5>Nuestros servicios</h5>
+					<h5>SERVICIOS</h5>
 				</div>
 				<div class="row justify-content-center text-center">
 					
@@ -484,67 +484,79 @@
 			</div>
 		</div>
 	</div>
-	<div class="home_ w3layouts">
- <div class="home_grids_w3">
-  <div class="row home_main">
-	   <div class="col-md-7 col-sm-7 col-xs-7 img1 img-grid">
-		   <div class="img_text_w3ls text-center">
-				<h4>VIDEO VIGILANCIA (CCTV)</h4>
-				<span> </span>
-				<ul>
-					<li>Amplia variedad en cámaras de circuito cerrado de TV – CCTV: Domos, Bullets, Infra-rojas, Profesionales, Pant-Tilt-Zoom, Ocultas, etc.</li>
-					<li>Sistemas profesionales para grabación digital de video-vigilancia (DVR’s & NVR’s).</li>
-					<li>Cámaras IP y servidores de video&Audio H.264, MPEG4, JMPEG.</li>
-				</ul>
+	<div class="servicios">
+		<div class="servicios-back">
+			<div class="container">
+				<div class="row justify-content-center text-center">
+					<h5>PRODUCTOS</h5>
+				</div>
+				<div class="row justify-content-center text-center">
+					
+				</div>
 			</div>
 		</div>
-		<div class="col-md-5 img2 col-sm-5 col-xs-5 img-grid">
-		    <div class="img_text_w3ls text-center">
-				<h4>SEGURIDAD Y WIFI</h4>
-				<span> </span>
-				<ul>
-					<li>Firewalls, ruteadores para VPN’s de alta seguridad, voz sobre IP y enlaces inalámbricos de largo alcance.</li>
-				</ul>
-			  </div>
-		</div>
-		<div class="clearfix"></div>
 	</div>
-  <div class="row home_main">
-	   <div class="col-md-5 col-sm-5 col-xs-5 img3 img-grid ">
-		    <div class="img_text_w3ls text-center">
-				<h4>Eget Integer sit amet.</h4>
-				<span> </span>
-				<p>Asid Estibulum </p>
-			  </div>
-		</div>
-	  <div class="col-md-7 col-sm-7 col-xs-7 img4 img-grid">
-		    <div class="img_text_w3ls text-center">
-				<h4>Eget Integer sit amet.</h4>
-				<span> </span>
-				<p>Cras vestibulum </p>
+	<div class="home_ w3layouts">
+		<div class="home_grids_w3">
+			<div class="row home_main">
+				<div class="col-md-7 col-sm-7 col-xs-7 img1 img-grid">
+					<div class="img_text_w3ls text-center">
+						<h4>VIDEO VIGILANCIA (CCTV)</h4>
+						<span> </span>
+						<ul>
+							<li>Amplia variedad en cámaras de circuito cerrado de TV – CCTV: Domos, Bullets, Infra-rojas, Profesionales, Pant-Tilt-Zoom, Ocultas, etc.</li>
+							<li>Sistemas profesionales para grabación digital de video-vigilancia (DVR’s & NVR’s).</li>
+							<li>Cámaras IP y servidores de video&Audio H.264, MPEG4, JMPEG.</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-5 img2 col-sm-5 col-xs-5 img-grid">
+					<div class="img_text_w3ls text-center">
+							<h4>SEGURIDAD Y WIFI</h4>
+							<span> </span>
+							<ul>
+								<li>Firewalls, ruteadores para VPN’s de alta seguridad, voz sobre IP y enlaces inalámbricos de largo alcance.</li>
+							</ul>
+					</div>
+				</div>
+				<div class="clearfix"></div>
 			</div>
-	 </div>
-	<div class="clearfix"></div>
-  </div>
-   <div class="row home_main">
-	   <div class="col-md-7 col-sm-7 col-xs-7 img-grid  img5">
-		  <div class="img_text_w3ls text-center">
-				<h4>Eget Integer sit amet.</h4>
-				<span> </span>
-				<p>Cras vestibulum </p>
-		  </div>
-		 </div>
-		<div class="col-md-5 col-sm-5 col-xs-5 img-grid img6">
-		  <div class="img_text_w3ls text-center">
-				<h4>Eget Integer sit amet.</h4>
-				<span> </span>
-				<p>Cras vestibulum </p>
-		  </div>
-		 </div>
-		<div class="clearfix"></div>
-  </div>
-</div>
-</div>
+			<div class="row home_main">
+				<div class="col-md-5 col-sm-5 col-xs-5 img3 img-grid ">
+						<div class="img_text_w3ls text-center">
+							<h4>Eget Integer sit amet.</h4>
+							<span> </span>
+							<p>Asid Estibulum </p>
+						</div>
+					</div>
+				<div class="col-md-7 col-sm-7 col-xs-7 img4 img-grid">
+						<div class="img_text_w3ls text-center">
+							<h4>Eget Integer sit amet.</h4>
+							<span> </span>
+							<p>Cras vestibulum </p>
+						</div>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			<div class="row home_main">
+				<div class="col-md-7 col-sm-7 col-xs-7 img-grid  img5">
+					<div class="img_text_w3ls text-center">
+							<h4>Eget Integer sit amet.</h4>
+							<span> </span>
+							<p>Cras vestibulum </p>
+					</div>
+				</div>
+				<div class="col-md-5 col-sm-5 col-xs-5 img-grid img6">
+					<div class="img_text_w3ls text-center">
+							<h4>Eget Integer sit amet.</h4>
+							<span> </span>
+							<p>Cras vestibulum </p>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</div>
 	</body>
 	<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 	<script src='http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/js/bootstrap.min.js'></script>
