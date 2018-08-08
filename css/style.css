@@ -461,12 +461,9 @@ header .right_bt .btn {
 	float: right;
 	width: auto;
 }
-/*============================================================*/
+/**************************************************************/
 /*===========================Autor Styles=====================*/
-/*============================================================*/
-
-/*==================================section-informacion========================================================*/
-
+/**************************************************************
 /* body {
 	background:url(../images/back2.jpg) center center;
     background-size: 100vw;
@@ -478,16 +475,18 @@ header .right_bt .btn {
 	position:fixed;
 	background: #0000009c;
 } */
+/*===================================================================================================*/
+/*=====================================ACERCA DE=====================================================*/
+/*===================================================================================================*/
 .presentacion{
 	font-family: "Poppins", sans-serif;
     text-rendering: optimizeLegibility;
 	color: #0a0a0a;
 	position: relative;
-	padding: 5rem 2rem 5rem 2rem;
+	padding: 5rem 0rem 5rem 0rem;
 	/* background-color: #f6f6f6; */
 }
 .presentacion h5{
-
 	font-family: Raleway;
 	text-align: center;
 	line-height: 1.6;
@@ -535,6 +534,9 @@ header .right_bt .btn {
 	font-size: 1em;
 	line-height: 1.6;
 }
+/*===================================================================================================*/
+/*=====================================SERVICIOS=====================================================*/
+/*===================================================================================================*/
 .servicios{
 	background:url(../images/back2.jpg) center center no-repeat;
     height: 100%; 
@@ -554,8 +556,6 @@ header .right_bt .btn {
 	font-size: 2em;
 	font-weight: bolder;
 }
-/*ServicIOS*/
-
 #servicios-contenedor .col-md-6 {
 	padding:0;
 	
@@ -604,7 +604,9 @@ header .right_bt .btn {
 	color: #000000;
 	max-width: 250px;	
 }
-/*-- home --*/
+/*===================================================================================================*/
+/*=====================================PRODUCTOS=====================================================*/
+/*===================================================================================================*/
 .home_grids_w3,.grid_w3l {
 	padding:0;
  }
@@ -619,22 +621,22 @@ header .right_bt .btn {
 	background-size: cover !important;
 }
 .img1 {
-	background: url(../images/back1.jpg) center;
+	background: url(../images/galeria/galeria1.jpg) center;
 }
  .img2 {
-	background: url(../images/back1.jpg) center;
+	background: url(../images/galeria/galeria2.jpg) center;
 }
 .img3 {
-	background: url(../images/back.jpg) center;
+	background: url(../images/galeria/galeria3.jpg) center;
 }
 .img4 {
-	background: url(../images/back.jpg) center; 
+	background: url(../images/galeria/galeria4.jpg) center; 
 }
 .img5 {
-	background: url(../images/back1.jpg) center;
+	background: url(../images/galeria/galeria5.jpg) center;
 }
 .img6 {
-	background: url(../images/back1.jpg) center;
+	background: url(../images/galeria/galeria6.jpg) center;
 }
 .img_text_w3ls {
     padding: 9.15em 0;
@@ -681,6 +683,9 @@ header .right_bt .btn {
 }
 .img-grid:hover .img_text_w3ls span {
     width: 50%;
+}
+.img_text_w3ls ul{
+	list-style:none; 
 }
 .img_text_w3ls li {
 	color: #fff;

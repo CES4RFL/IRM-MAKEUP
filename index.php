@@ -356,62 +356,56 @@
 	<!-- end section -->
 	<!-- section informacion -->
 	<div class="presentacion">
-		<div class="container">
-			<div class="row justify-content-center texto-infomacion text-center">
-				<h5><b>En Informática y Redes México, </b></h5>
-				<p>
-				nos preocupamos por llevar Tecnología Informática a las Micros, 
-				Pequeñas y Medianas Empresas (MiPymes), empresas que inician labores 
-				o que se encuentran en pleno crecimiento
-				</p>
+		<div class="row justify-content-center texto-infomacion text-center">
+			<h5><b>En Informática y Redes México, </b></h5>
+			<p>
+			nos preocupamos por llevar Tecnología Informática a las Micros, 
+			Pequeñas y Medianas Empresas (MiPymes), empresas que inician labores 
+			o que se encuentran en pleno crecimiento
+			</p>
+		</div>
+		<div class="row features"> 
+			<div class="item col-md-4 text-center">
+				<i class="fas fa-chart-line" aria-hidden="true" style="font-size: 4rem; padding-bottom:1rem;"></i>
+				<p	>Hoy en dia, ningun negocio puede ser 
+				productivo y exitoso, si no cuenta con tecnologia adecuada que permita 
+				la toma de decisiones rapidas y efectivas</p>
 			</div>
-			<div class="row features">
-				<div class="item col-md-4 text-center">
-					<i class="fas fa-chart-line" aria-hidden="true" style="font-size: 4rem; padding-bottom:1rem;"></i>
-					<p	>Hoy en dia, ningun negocio puede ser 
-					productivo y exitoso, si no cuenta con tecnologia adecuada que permita 
-					la toma de decisiones rapidas y efectivas</p>
-				</div>
-				<div class="item col-md-4  text-center">
-					<i class="fa fa-calculator" aria-hidden="true" style="font-size: 4rem; padding-bottom:1rem;"></i>
-					<p>Para las empresas en pleno crecimiento no es funcional 
-					desviar recursos en la contratacion de personal de sistemas, ya que existiran 
-					tiempos muertos y un consto alto de inversion</p>
-				</div>
-				<div class="item col-md-4 text-center">
-					<i class="far fa-lightbulb" aria-hidden="true" style="font-size: 4rem; padding-bottom:1rem;"></i>
-					<p>Es ahi donde <b>Informática y Redes México</b>, puede apoyarle, 
-					ya que ponemos a su alcance Tecnología y servicio de manera puntual y precisa a un 
-					precio justo.</p>
-				</div>
+			<div class="item col-md-4  text-center">
+				<i class="fa fa-calculator" aria-hidden="true" style="font-size: 4rem; padding-bottom:1rem;"></i>
+				<p>Para las empresas en pleno crecimiento no es funcional 
+				desviar recursos en la contratacion de personal de sistemas, ya que existiran 
+				tiempos muertos y un consto alto de inversion</p>
 			</div>
-			<div class="objetivo">
-				<div class="row justify-content-center text-center">
-					<h5>Objetivo
-						<hr/>
-					</h5>
-				</div>
-				<div class="row justify-content-center text-center">
-					<p>Proporcionar soluciones tecnológicas y de desarrollo con estándares de calidad, mediante proyectos 
-					llave en mano orientados a satisfacer los requerimientos y necesidades de nuestros clientes.</p>
-				</div>
+			<div class="item col-md-4 text-center">
+				<i class="far fa-lightbulb" aria-hidden="true" style="font-size: 4rem; padding-bottom:1rem;"></i>
+				<p>Es ahi donde <b>Informática y Redes México</b>, puede apoyarle, 
+				ya que ponemos a su alcance Tecnología y servicio de manera puntual y precisa a un 
+				precio justo.</p>
+			</div>
+		</div>
+		<div class="objetivo">
+			<div class="row justify-content-center text-center">
+				<h5>Objetivo
+					<hr/>
+				</h5>
+			</div>
+			<div class="row justify-content-center text-center">
+				<p>Proporcionar soluciones tecnológicas y de desarrollo con estándares de calidad, mediante proyectos 
+				llave en mano orientados a satisfacer los requerimientos y necesidades de nuestros clientes.</p>
 			</div>
 		</div>
 	</div>
+	<!--========================SERVICIOS==========================-->
 	<div class="servicios">
 		<div class="servicios-back">
 			<div class="container">
 				<div class="row justify-content-center text-center">
 					<h5>SERVICIOS</h5>
 				</div>
-				<div class="row justify-content-center text-center">
-					
-				</div>
 			</div>
 		</div>
 	</div>
-
-		<!--service-->
 	<div id="servicios-contenedor" style="margin-top:0rem">
 		<!--services wrapper-->
 		<div class="servicios-contenido">
@@ -484,6 +478,7 @@
 			</div>
 		</div>
 	</div>
+	<!--=============================RODUCTOS====================================================-->
 	<div class="servicios">
 		<div class="servicios-back">
 			<div class="container">
@@ -524,16 +519,22 @@
 			<div class="row home_main">
 				<div class="col-md-5 col-sm-5 col-xs-5 img3 img-grid ">
 						<div class="img_text_w3ls text-center">
-							<h4>Eget Integer sit amet.</h4>
+							<h4>CONTROL DE ASISTENCIA</h4>
 							<span> </span>
-							<p>Asid Estibulum </p>
+							<ul>
+								<li>Sistemas biométricos para el control de asistencias.</li>
+							</ul>
 						</div>
 					</div>
 				<div class="col-md-7 col-sm-7 col-xs-7 img4 img-grid">
 						<div class="img_text_w3ls text-center">
-							<h4>Eget Integer sit amet.</h4>
+							<h4>CABLEADO</h4>
 							<span> </span>
-							<p>Cras vestibulum </p>
+							<ul>
+								<li>Firewalls, ruteadores para VPN’s de alta seguridad, voz sobre IP y enlaces inalámbricos de largo alcance.</li>
+								<li>Implementación e instalación de múltiples categorías dependiendo de sus requerimientos.</li>
+								<li>Entre otros servicios que ofrecemos están cambios, movimientos o ampliaciones de redes de cableado, actualizaciones de cableados obsoletos, integración de equipo activo (Switches, Routers, Servidores, etc.).</li>
+							</ul>
 						</div>
 				</div>
 				<div class="clearfix"></div>
@@ -541,16 +542,21 @@
 			<div class="row home_main">
 				<div class="col-md-7 col-sm-7 col-xs-7 img-grid  img5">
 					<div class="img_text_w3ls text-center">
-							<h4>Eget Integer sit amet.</h4>
+							<h4>EQUIPO Y CONSUMIBLES</h4>
 							<span> </span>
-							<p>Cras vestibulum </p>
+							<ul>
+								<li>Equipo de cómputo e impresión de las mejores marcas del mercado.</li>
+								<li>Consumibles, surtimos todas las marcas del mercado..</li>
+							</ul>
 					</div>
 				</div>
 				<div class="col-md-5 col-sm-5 col-xs-5 img-grid img6">
 					<div class="img_text_w3ls text-center">
-							<h4>Eget Integer sit amet.</h4>
+							<h4>ANTIVIRUS</h4>
 							<span> </span>
-							<p>Cras vestibulum </p>
+							<ul>
+								<li>Para la protección de sus equipos ofrecemos el mejor antivirus del mercado,Kaspersky.</li>
+							</ul>
 					</div>
 				</div>
 				<div class="clearfix"></div>
