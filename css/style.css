@@ -479,25 +479,24 @@ header .right_bt .btn {
 /*=====================================ACERCA DE=====================================================*/
 /*===================================================================================================*/
 .presentacion{
-	font-family: "Poppins", sans-serif;
     text-rendering: optimizeLegibility;
 	color: #0a0a0a;
 	position: relative;
-	padding: 5rem 0rem 5rem 0rem;
+	padding: 5rem 2rem 5rem 2rem;
 	/* background-color: #f6f6f6; */
 }
 .presentacion h5{
 	font-family: Raleway;
 	text-align: center;
 	line-height: 1.6;
-	font-size: 3em;
+	font-size: 2em;
 	color: #083358;
 }
 .presentacion p{
-	/* font-family: "Poppins", sans-serif; */
+	font-family: Raleway;
 	text-align: center;
 	line-height: 1.6;
-	font-size: 1.4em;
+	font-size: 1.1em;
 }
 .presentacion .item{
 	padding-top: 4rem;
@@ -506,7 +505,7 @@ header .right_bt .btn {
 	color: #01b1d7;	
 }
 .presentacion .item p{
-	font-size: 1rem;
+	font-size: 1em;
 }
 .objetivo{
 	padding: 3rem;

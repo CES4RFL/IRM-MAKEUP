@@ -28,6 +28,8 @@
 	<link rel="stylesheet" type="text/css" href="revolution/css/settings.css" />
 	<link rel="stylesheet" type="text/css" href="revolution/css/layers.css" />
 	<!-- <link rel="stylesheet" type="text/css" href="revolution/css/navigation.css" /> -->
+	<link rel="icon" href="images/logos/logo.png">
+
 	</head>
 	<body class="home_2">
 		<!-- <div id="particles-js"></div> -->
@@ -403,6 +405,9 @@
 				<div class="row justify-content-center text-center">
 					<h5>SERVICIOS</h5>
 				</div>
+				<div class="row justify-content-center text-center">
+				<h4>Este es el portafolio de productos que ponemos a su servicio</h4>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -444,32 +449,32 @@
 					</div>
 				</div>	
 				<div class="services-column">
-					<div class="content-outer" style="background: #083358;">
+					<div class="content-outer">
 						<div class="row clearfix text-center">
 							<div class="service-block col-lg-6 col-md-6 col-sm-6 col-xs-12">
 								<div class="inner-box">
 									<div class="icon-box"><i class="fas fa-sitemap" aria-hidden="true"></i></div>
-									<h4 style="color:white;">DESARROLLO E IMPLEMENTACIÓN DE SISTEMAS A MEDIDA</h4>
+									<h4>DESARROLLO E IMPLEMENTACIÓN DE SISTEMAS A MEDIDA</h4>
 								</div>
 							</div>
 
 							<div class="service-block col-lg-6 col-md-6 col-sm-6 col-xs-12">
 								<div class="inner-box">
 									<div class="icon-box"><i class="fas fa-desktop" aria-hidden="true"></i></div>
-									<h4 style="color:white;">MANTENIMIENTO Y VENTA DE EQUIPOS DE COMPUTO Y CONSUMIBLES</h4>
+									<h4>MANTENIMIENTO Y VENTA DE EQUIPOS DE COMPUTO Y CONSUMIBLES</h4>
 								</div>
 							</div>
 							<div class="service-block col-lg-6 col-md-6 col-sm-6 col-xs-12">
 								<div class="inner-box">
 									<div class="icon-box"><i class="fas fa-shield-alt" aria-hidden="true"></i></div>
-									<h4 style="color:white;">VENTA DE ANTIVIRUS</h4>
+									<h4>VENTA DE ANTIVIRUS</h4>
 								</div>
 							</div>
 
 							<div class="service-block col-lg-6 col-md-6 col-sm-6 col-xs-12">
 								<div class="inner-box">
 									<div class="icon-box"><i class="fas fa-file-invoice"aria-hidden="true"></i></div>
-									<h4 style="color:white;">VENTA E IMPLEMENTACIÓN DE PRODUCTOS <b>ASPEL</b></h4>
+									<h4>VENTA E IMPLEMENTACIÓN DE PRODUCTOS <b>ASPEL</b></h4>
 								</div>
 							</div>
 						</div>
@@ -486,7 +491,7 @@
 					<h5>PRODUCTOS</h5>
 				</div>
 				<div class="row justify-content-center text-center">
-					
+					<h3>Nuestro portafilo de servicios nos permite ofrecerle soluciones llave en mano para cubrir las necesidades de su empresa.</h3>
 				</div>
 			</div>
 		</div>

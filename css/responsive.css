@@ -1537,23 +1537,11 @@
 		background-size: cover; 
 		padding: 0rem 0rem 0rem 0rem;
 	}
-	.presentacion h5{
-		font-size: 4vw;
-	}
-	.presentacion p{
-		font-size: 3vw;
-	}
 	.informacion hr {
 		border-top: none;
 	}
 	.objetivo{
 		margin-top: none;
-	}
-	.objetivo h5{
-		font-size: 3.8vw;
-	}
-	.objetivo p{
-		font-size: 3vw;
 	}
 	
 }
