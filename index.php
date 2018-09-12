@@ -87,19 +87,19 @@
 						<div id="navbar_menu">
 					   		<ul class="first-ul">
 								<li>
-						   		<a class="active" href="home1.html">Inicio</a>
+						   		<a class="active" href="#inicio">Inicio</a>
 								</li>
 								<li>
-						   		<a href="service.html">Servicios</a>
+						   		<a href="#servicios">Servicios</a>
 								</li>
 								<li>
-							   	<a href="blog.html">Productos</a>
+							   	<a href="#productos">Productos</a>
 								</li>
-								<li>
+								<!-- <li>
 							   	<a href="#">Marcas</a>
-								</li>
+								</li> -->
 								<li>
-							   	<a href="">CONTÁCTENOS</a>
+							   	<a href="#contacto">CONTÁCTENOS</a>
 								</li>
 					   		</ul>
 						</div>
@@ -357,7 +357,7 @@
 	</div>
 	<!-- end section -->
 	<!-- section informacion -->
-	<div class="presentacion">
+	<div id="inicio" class="presentacion">
 		<div class="row justify-content-center texto-infomacion text-center">
 			<h5><b>En Informática y Redes México, </b></h5>
 			<p>
@@ -399,7 +399,7 @@
 		</div>
 	</div>
 	<!--========================SERVICIOS==========================-->
-	<div class="servicios">
+	<div id="servicios" class="servicios">
 		<div class="servicios-back">
 			<div class="container">
 				<div class="row justify-content-center text-center">
@@ -484,7 +484,7 @@
 		</div>
 	</div>
 	<!--=============================RODUCTOS====================================================-->
-	<div class="servicios">
+	<div id="productos" class="servicios">
 		<div class="servicios-back">
 			<div class="container">
 				<div class="row justify-content-center text-center">
@@ -567,6 +567,35 @@
 				<div class="clearfix"></div>
 			</div>
 		</div>
+	</div>
+		<!--=============================RODUCTOS====================================================-->
+		<div id="contacto" class="container contact-form">
+            <form>
+				<h5><b> Contactanos </b></h5>
+				<p class="text-center">
+					CON GUSTO LO ATENDEREMOS EN LOS TELEFONOS 
+					<b>(55) 6390-0027 / 6390-0028 </br></b>
+					TAMBIEN AL CORREO:
+					<b>vmacias@informaticayredes.com.mx </br></b> 
+					O LLENA EL FORMULARIO Y ENVIANOS UN MENSAJE 	
+				</p>
+				<div class="row">
+					<div class="col text-center">
+						<div class="form-group">
+							<input type="text" name="Nombre" class="form-control" placeholder="Nombre *" required/>
+						</div>
+						<div class="form-group">
+							<input type="email" name="Email" class="form-control" placeholder="Email *" required/>
+						</div>
+						<div class="form-group">
+							<textarea name="Mensaje" class="form-control" placeholder="Mensaje *" style="width: 100%; height: 150px;" required></textarea>
+						</div>
+						<div class="form-group aling-center">
+							<input type="submit" name="btnSubmit" class="btnContact" value="Enviar mensaje" />
+						</div>
+					</div>
+				</div>
+            </form>
 	</div>
 	</body>
 	<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>

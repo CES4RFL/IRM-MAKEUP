@@ -476,7 +476,7 @@ header .right_bt .btn {
 	background: #0000009c;
 } */
 /*===================================================================================================*/
-/*=====================================ACERCA DE=====================================================*/
+/*=====================================PRESENTACION=====================================================*/
 /*===================================================================================================*/
 .presentacion{
     text-rendering: optimizeLegibility;
@@ -668,10 +668,11 @@ header .right_bt .btn {
 	text-transform: capitalize;
 	letter-spacing: 2px;
 }
+
 .img_text_w3ls span {
     width: 30%;
     height: 1px;
-    background: rgba(255, 255, 255, 0.29);
+    background: #fff;
     display: inline-block;
     margin: 1.5em 0 0.5em;
 	transition: 0.5s all;
@@ -685,7 +686,10 @@ header .right_bt .btn {
 }
 .img_text_w3ls ul{
 	list-style:none; 
+	padding: 0rem 2rem 0rem 2rem;
 }
+
+
 .img_text_w3ls li {
 	color: #fff;
 	font-size: .9em;
@@ -695,6 +699,54 @@ header .right_bt .btn {
 	text-transform: capitalize;
 }
 .img-grid:hover .img_text_w3ls {
-    background: rgba(43, 91, 162, 0.2);
+    background: rgba(0, 0, 0, 0.5);
+}
+/*===================================================================================================*/
+/*=====================================FORMULARIO=====================================================*/
+/*===================================================================================================*/
+
+.contact-form{
+    background: #fff;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    width: 70%;
+}
+.contact-form .form-control{
+    border-radius:1rem;
 }
 
+.contact-form h5{
+	font-family: Raleway;
+	text-align: center;
+	line-height: 1.6;
+	font-size: 2em;
+	color: #083358;
+}
+
+.contact-form p{
+	font-family: Raleway;
+	text-align: center;
+	line-height: 1.6;
+	font-size: 1.1em;
+	color: #0a0a0a;
+}
+.contact-form .btnContact {
+    width: 50%;
+    border: none;
+    border-radius: 1rem;
+    padding: 1.5%;
+    background: #01b1d7;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+.btnContactSubmit
+{
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    color: #fff;
+    background-color: #0062cc;
+    border: none;
+    cursor: pointer;
+}
